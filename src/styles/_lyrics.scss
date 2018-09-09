@@ -1,0 +1,33 @@
+.lyrics__back {
+    background: #d63e57;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card .card-header {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 32px
+}
+.card .card-text {
+    color: #7c8db9;
+    font-family: 'Calibri', sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.list-group {
+    color: white;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+}
+.list-group .list-group-item {
+    margin-right: 20px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold
+}

@@ -1,0 +1,107 @@
+.tracks:nth-child(2){
+    width: 50%;
+    margin-right: 0;
+    margin-top: 0;
+}
+.tracks:nth-child(6){
+    width: 40%
+}
+.tracks:nth-child(7){
+    width: 54%
+}
+.tracks:nth-child(2) .track-body {
+    padding-top: 4%
+}
+.tracks:nth-child(2) .track-body h1 {
+    padding: 5px 15px;
+}
+.tracks:nth-child(2) .track-body h1 strong {
+    font-size: 42px;
+}
+.tracks:nth-child(2) .track-body .track-artist {
+    font-size: 28px
+}
+.tracks:nth-child(2) .track-lyrics {
+    line-height: 24px;
+    font-size: 17px
+}
+.tracks:nth-child(2) .track-info {
+    font-size: 16px
+}
+.tracks {
+    width: 30%;
+    background: $primary-blue;
+    margin-top: 10%;
+    margin-right: 3%;
+    border-radius: 8px;
+    position: relative;
+}
+.track-body {
+    z-index: 1;
+}
+.track-body h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 5px 15px;
+    width: 80%;
+}
+.track-body h1 a {
+    color: white;
+    text-decoration: none
+}
+.track-body h1 strong {
+    font-size: 28px;
+}
+.track-body .track-by {
+    font-size: 16px;
+    margin-left: 2px
+}
+.track-body .track-artist {
+    color: $primary-red;
+    font-size: 18px
+}
+.tracks .background img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    pointer-events:none;
+}
+.track-lyrics {
+    color: #7c8db9;
+    padding: 0 15px;
+    width: 80%;
+    margin-left: 1%;
+    font-family: 'Calibri', sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 25px
+}
+.track-text {
+    padding: 0 15px;
+    font-family: 'Calibri', sans-serif;
+    color: white;
+    margin-bottom: 25px
+}
+.track-info {
+    font-size: 14px
+}
+.track-info p i {
+    padding-right: 3px
+}
+.track-text span {
+    color: $primary-red;
+    font-weight: bold;
+}
+.tracks .view-lyrics {
+    margin-bottom: 25px;
+}
+.tracks .view-lyrics a {
+    padding: 0 15px;
+    color: $primary-red;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none
+}

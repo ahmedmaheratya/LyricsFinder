@@ -1,0 +1,51 @@
+@media screen and (max-width: 414px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .logo {
+        width: 100%;
+        text-align: center
+    }
+    .desktopNav {
+        text-align: center;
+        width: 100%
+    }
+    .desktopNav a {
+        padding-right: 5px
+    }
+    .search__content {
+        width: 100%;
+    }
+    .search__content h1 {
+        font-size: 22px;
+        width: 100%;
+    }
+    .search__content p {
+        margin-top: 0;
+        width: 100%;
+        font-size: 17px
+    }
+    .search__content form {
+        display: flex;
+        flex-direction: column
+    }
+    .search__content form button {
+        width: 60%;
+        margin-top: 5%;
+        padding: 20px
+    }
+    .search__content--icons {
+        margin-top: 30px;
+    }
+    .search__content--icons a {
+        padding: 11px 12px
+    }
+    .track-body h1 strong, .tracks:nth-child(2) .track-body h1 strong {
+        font-size: 26px
+    }
+    .track-body .track-artist, .tracks:nth-child(2) .track-body .track-artist {
+        font-size: 16px;
+    }
+}
