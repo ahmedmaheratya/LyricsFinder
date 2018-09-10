@@ -18,7 +18,6 @@ class Track extends Component {
         })
         .then(res => {
           this.setState({ background: res.data.value[0].contentUrl});
-          console.log(res.data.value[0].contentUrl);
         })
     })
     .catch(err => console.log(err))
@@ -42,10 +41,15 @@ class Track extends Component {
         return track.artist_name;
       }
     }
+    function showBG() {
+      if(background.length > 0) {
+        return <img src={background} alt="artist" />
+      }
+    }
     return (
       <div className="tracks">
         <div className="background">
-          <img src={background} alt="artist" />
+          {showBG()}
         </div>
         <div className="track-body">
             <h1><strong><Link to={`lyrics/track/${track.track_id}`}>{track.track_name}</Link></strong> <br/> <span className="track-by">by</span> <span className="track-artist">{showArtist()}</span></h1>

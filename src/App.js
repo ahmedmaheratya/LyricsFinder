@@ -6,7 +6,7 @@ import Index from './components/layouts/Index'
 import Lyrics from './components/tracks/Lyrics'
 
 import {Provider} from './context'
-import 'normalize.css/normalize.css'
+
 import './styles/App.css'
 
 class App extends Component {
